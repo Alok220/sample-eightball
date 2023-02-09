@@ -40,6 +40,9 @@
        			<url>https://repo.maven.apache.org/maven2</url>
    			</pluginRepository>
 		</pluginRepositories>
+		<pluginGroups>
+			<pluginGroup>com.fortify.sca.plugins.maven</pluginGroup>
+		</pluginGroups
 				</archive>
 			</configuration>
 		  </plugin>
