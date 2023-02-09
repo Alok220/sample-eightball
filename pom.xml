@@ -24,7 +24,7 @@
 	</dependencies>
 	<pluginRepositories>
    			<pluginRepository>    
-       			<id>central</id>
+       			<id>sca-maven-plugin</id>
        			<name>Maven.org</name>
        			<url>https://repo.maven.apache.org/maven2</url>
    			</pluginRepository>
@@ -32,9 +32,11 @@
 	<build>
 		<plugins>
 		  <plugin>
-			<groupId>org.apache.maven.plugins</groupId>
-			<artifactId>maven-jar-plugin</artifactId>
+			<groupId>com.fortify.sca.plugins.maven</groupId>
+			<artifactId>sca-maven-plugin</artifactId>
+			<packaging>maven-plugin</packaging>
 			<version>3.2.0</version>
+			<name>Fortify SCA Maven Plugin: sca-maven-plugin</name>  
 			<configuration>
 				<archive>
 					<manifest>
