@@ -22,13 +22,6 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	<pluginRepositories>
-   			<pluginRepository>    
-       			<id>sca-maven-plugin</id>
-       			<name>Maven.org</name>
-       			<url>https://repo.maven.apache.org/maven2</url>
-   			</pluginRepository>
-		</pluginRepositories>
 	<build>
 		<plugins>
 		  <plugin>
@@ -40,6 +33,13 @@
 					<manifest>
 						<mainClass>com.fortify.sca.plugins.maven.samples.EightBall</mainClass>
 					</manifest>
+		<pluginRepositories>
+   			<pluginRepository>    
+       			<id>sca-maven-plugin</id>
+       			<name>Maven.org</name>
+       			<url>https://repo.maven.apache.org/maven2</url>
+   			</pluginRepository>
+		</pluginRepositories>
 				</archive>
 			</configuration>
 		  </plugin>
