@@ -38,11 +38,9 @@
        			<id>sca-maven-plugin</id>
        			<name>Maven.org</name>
        			<url>https://repo.maven.apache.org/maven2</url>
+			<pluginGroup>com.fortify.sca.plugins.maven</pluginGroup>
    			</pluginRepository>
 		</pluginRepositories>
-		<pluginGroups>
-			<pluginGroup>com.fortify.sca.plugins.maven</pluginGroup>
-		</pluginGroups
 				</archive>
 			</configuration>
 		  </plugin>
